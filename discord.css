@@ -1,0 +1,119 @@
+body{
+    background-image:url("img/purple.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;       
+    margin-bottom: 20px;
+    font-family: 'Bold', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+label{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Bold', sans-serif;
+}
+
+input[type="text"],
+input[type="email"], input[type="password"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="date"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label[for="multiple"]{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Bold', sans-serif;
+}
+
+input[type="submit"]{
+    background-color: #7289DA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+label[for="genero"]{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Bold', sans-serif;
+    margin-bottom: 10px;
+}
+input[type="radio"]{
+    margin-right: 10px;
+    align-self: center;
+}
+
+fieldset {
+    background-color: #4C3C4E;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+label {
+    display: block; /* Asegura que cada etiqueta esté en una línea propia */
+    margin: 5px 0;  /* Espacio entre las opciones */
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Espacio entre el radio button y el texto */
+}
+
+legend {
+    font-size: 1.2em; /* Tamaño de la fuente del legend */
+    margin-bottom: 10px; /* Espacio entre el legend y las opciones */
+    color: white;
+    font-family: 'Bold', sans-serif;
+}
+
+label{
+    display: inline;
+    white-space: nowrap;
+}
+
+input[type="checkbox"]{
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
